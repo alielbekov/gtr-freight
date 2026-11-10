@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Become a shipper — GTR Freight</title>
+<meta name="description" content="Partner with GTR Freight for hassle-free freight management, flexible shipping options, and dedicated customer support.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="nav-logo" href="index.html" aria-label="GTR Freight home"><img src="assets/img/logo.png" alt="GTR Freight" width="120" height="48"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu"><svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg><svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></button>
+    <nav class="nav-menu" id="nav-menu" aria-label="Main">
+      <ul class="nav-links">
+        <li class="dropdown"><button class="nav-link" type="button" aria-expanded="false" aria-current="page">Shippers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="dropdown-menu"><a href="freight-brokerage.html">Freight brokerage</a><a href="managed-transportation.html">Managed transportation</a><a href="warehousing.html">Warehousing and Fulfillment</a><a href="cross-border.html">Cross-Border Logistics</a><a href="ship-international.html">Ship International</a><a href="become-shipper.html">Become a shipper</a></div></li>
+        <li class="dropdown"><button class="nav-link" type="button" aria-expanded="false">Carriers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="dropdown-menu"><a href="become-carrier.html">Become a carrier</a><a href="become-carrier.html#requirements">Carrier requirements</a></div></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="careers.html">Careers</a></li>
+        <li><a class="nav-link" href="contacts.html">Contacts</a></li>
+      </ul>
+      <div class="nav-actions"><a class="nav-phone" href="tel:+15132448706"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>+1 513 244 8706</a><a class="btn btn-primary" href="contacts.html#form">Request a quote</a></div>
+    </nav>
+  </div>
+</header>
+<section class="hero hero--inner" style="background-image:url('assets/img/hero-carrier.jpg')">
+  <div class="container">
+    <h1>Become a shipper</h1>
+    
+    <p>Partner with us for hassle-free freight management, flexible shipping options, and dedicated customer support.</p>
+    
+  </div>
+</section>
+<section class="shipper">
+  <div class="container"><form class="shipper-form" data-static action="#" method="post" novalidate>
+  <div class="shipper-grid">
+    <div>
+      <h2>Company Information</h2>
+      <div class="form-card">
+        <div class="form-grid">
+          <div class="field full"><label for="company">Company name</label><input type="text" id="company" name="company" placeholder="Your company name" required></div>
+          <div class="field full"><label for="company_address">Address</label><input type="text" id="company_address" name="company_address" placeholder="Company address" required></div>
+          <div class="field "><label for="company_zip">Zip code</label><input type="text" id="company_zip" name="company_zip" placeholder="Zip" required></div>
+          <div class="field "><label for="company_country">Choose country</label><select id="company_country" name="company_country"><option>United states</option><option>Canada</option><option>Mexico</option></select></div>
+          <div class="field full"><label for="website">Website</label><input type="url" id="website" name="website" placeholder="Website url"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Accounts payable information</h2>
+      <div class="form-card">
+        <div class="form-grid">
+          <div class="field full"><label for="ap_address">Address</label><input type="text" id="ap_address" name="ap_address" placeholder="Address" required></div>
+          <div class="field "><label for="ap_zip">Zip code</label><input type="text" id="ap_zip" name="ap_zip" placeholder="Zip" required></div>
+          <div class="field "><label for="ap_country">Choose country</label><select id="ap_country" name="ap_country"><option>United states</option><option>Canada</option><option>Mexico</option></select></div>
+          <div class="field full"><label for="ap_name">Name</label><input type="text" id="ap_name" name="ap_name" placeholder="Name" required></div>
+          <div class="field "><label for="ap_email">Email</label><input type="email" id="ap_email" name="ap_email" placeholder="Email" required></div>
+          <div class="field "><label for="ap_phone">Phone</label><input type="tel" id="ap_phone" name="ap_phone" placeholder="Phone number" required></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Contact information</h2>
+      <div class="form-card">
+        <div class="form-grid">
+          <div class="field full"><label for="contact_name">Name</label><input type="text" id="contact_name" name="contact_name" placeholder="Your name" required></div>
+          <div class="field "><label for="contact_email">Email</label><input type="email" id="contact_email" name="contact_email" placeholder="Email address" required></div>
+          <div class="field "><label for="contact_phone">Phone</label><input type="tel" id="contact_phone" name="contact_phone" placeholder="Your phone number" required></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Alternate contact</h2>
+      <div class="form-card">
+        <div class="form-grid">
+          <div class="field full"><label for="alt_name">Name</label><input type="text" id="alt_name" name="alt_name" placeholder="Your name"></div>
+          <div class="field "><label for="alt_email">Email</label><input type="email" id="alt_email" name="alt_email" placeholder="Email address"></div>
+          <div class="field "><label for="alt_phone">Phone</label><input type="tel" id="alt_phone" name="alt_phone" placeholder="Your phone number"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="payment">
+    <h2 style="margin-top:40px">Payment information</h2>
+    <div class="radio-group">
+      <h3>Will you accept an email or scanned copy of billing?</h3>
+      <label><input type="radio" name="billing_copy" value="yes" checked> Yes, an email or scanned copy is acceptable</label>
+      <label><input type="radio" name="billing_copy" value="no"> No, an email or scanned copy is NOT acceptable</label>
+      <h3>Will you require the original Proof of Delivery?</h3>
+      <label><input type="radio" name="pod" value="yes" checked> Yes, original Proof of Delivery is required</label>
+      <label><input type="radio" name="pod" value="no"> No, original Proof of Delivery is NOT required</label>
+      <h3>Preferred invoicing method</h3>
+      <label><input type="radio" name="invoicing" value="email" checked> Email</label>
+      <label><input type="radio" name="invoicing" value="fax"> Fax</label>
+    </div>
+    <div class="field "><label for="service">Service required</label><select id="service" name="service"><option>Freight brokerage</option><option>Managed transportation</option><option>Warehousing and Fulfillment</option><option>Cross-Border Logistics</option><option>Ship International</option></select></div>
+  </div>
+  <div class="submit form-card" style="background:none;padding:0">
+    <button class="btn btn-primary btn-block btn-lg" type="submit">Become a shipper</button>
+    <p class="form-note" role="status">Thanks! Your shipper application has been received. We’ll be in touch shortly.</p>
+  </div>
+</form></div>
+</section>
+<section class="cta-section">
+  <div class="container">
+    <div class="cta" style="background-image:url('assets/img/cta-truck.jpg')">
+      <h2>Ready for less risk &amp; More Savings?</h2>
+      <a class="btn btn-white" href="contacts.html#form">Get in touch</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Phone: <a href="tel:8555555555">855-555-5555</a></li>
+            <li>Email: <a href="mailto:info@gtrfreight.com">info@gtrfreight.com</a></li>
+            <li class="addr">4030 SMITH RD STE 200<br>CINCINNATI, OH 45209</li>
+          </ul>
+          <div class="social">
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2zM8 19H5V9h3zM6.5 7.7A1.7 1.7 0 1 1 8.2 6a1.7 1.7 0 0 1-1.7 1.7zM19 19h-3v-4.9c0-1.2 0-2.7-1.6-2.7s-1.9 1.3-1.9 2.6V19h-3V9h2.9v1.4a3.2 3.2 0 0 1 2.9-1.6c3 0 3.6 2 3.6 4.6z"/></svg></a>
+            <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></a>
+            <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="contacts.html#form">Request a quote</a></li>
+            <li><a href="about.html">Overview</a></li>
+            <li><a href="about.html#mission">Our mission</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="freight-brokerage.html#services">Dry Van</a></li>
+            <li><a href="freight-brokerage.html#services">Refrigerated</a></li>
+            <li><a href="freight-brokerage.html#services">Flatbed/Specialized</a></li>
+            <li><a href="freight-brokerage.html#services">Expedited</a></li>
+            <li><a href="freight-brokerage.html#services">Heavy Haul/Oversize</a></li>
+            <li><a href="freight-brokerage.html#services">White Glove</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="team.html">Our team</a></li>
+            <li><a href="careers.html">Careers</a><br><span class="badge-hiring">Hiring!</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bar">© GTR Freight. All rights reserved.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

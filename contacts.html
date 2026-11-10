@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacts — GTR Freight</title>
+<meta name="description" content="Reach out to GTR Freight for a personalized quote, consultation, or more information on how we can streamline your supply chain.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="nav-logo" href="index.html" aria-label="GTR Freight home"><img src="assets/img/logo.png" alt="GTR Freight" width="120" height="48"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu"><svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg><svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></button>
+    <nav class="nav-menu" id="nav-menu" aria-label="Main">
+      <ul class="nav-links">
+        <li class="dropdown"><button class="nav-link" type="button" aria-expanded="false">Shippers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="dropdown-menu"><a href="freight-brokerage.html">Freight brokerage</a><a href="managed-transportation.html">Managed transportation</a><a href="warehousing.html">Warehousing and Fulfillment</a><a href="cross-border.html">Cross-Border Logistics</a><a href="ship-international.html">Ship International</a><a href="become-shipper.html">Become a shipper</a></div></li>
+        <li class="dropdown"><button class="nav-link" type="button" aria-expanded="false">Carriers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button><div class="dropdown-menu"><a href="become-carrier.html">Become a carrier</a><a href="become-carrier.html#requirements">Carrier requirements</a></div></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="careers.html">Careers</a></li>
+        <li><a class="nav-link" href="contacts.html" aria-current="page">Contacts</a></li>
+      </ul>
+      <div class="nav-actions"><a class="nav-phone" href="tel:+15132448706"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>+1 513 244 8706</a><a class="btn btn-primary" href="contacts.html#form">Request a quote</a></div>
+    </nav>
+  </div>
+</header>
+<section class="hero hero--inner" style="background-image:url('assets/img/hero-carrier.jpg')">
+  <div class="container">
+    <h1>Contacts</h1>
+    
+    <p>Reach out to us today for a personalized quote, consultation, or more information on how we can streamline your supply chain.</p>
+    
+  </div>
+</section>
+<section class="contact-wrap">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:0">
+      <h2 class="section-title">We’d love to <span class="accent">hear from you</span></h2>
+      <p class="section-lead">If you have any inquiries or need support regarding our services, please fill out the form on this page or use the email address and phone number provided to contact us directly.</p>
+    </div>
+    <div class="contact-grid">
+      <form class="form-card" id="form" data-static action="#" method="post" novalidate>
+  <div class="form-grid">
+    <div class="field "><label for="name">Full name</label><input type="text" id="name" name="name" placeholder="Your full name" required></div>
+    <div class="field "><label for="service">Choose logistics service</label><select id="service" name="service"><option>Freight brokerage</option><option>Managed transportation</option><option>Warehousing and Fulfillment</option><option>Cross-Border Logistics</option><option>Ship International</option></select></div>
+    <div class="field "><label for="email">Email</label><input type="email" id="email" name="email" placeholder="example@gmail.com" required></div>
+    <div class="field "><label for="phone">Phone</label>
+  <div class="phone-group"><select aria-label="Country code" name="phone_country"><option>US</option><option>CA</option><option>MX</option></select><input type="tel" id="phone" name="phone" placeholder="+1 (876) 987 621" required></div></div>
+    <div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Leave us a message..." required></textarea></div>
+  </div>
+  <label class="check"><input type="checkbox" name="privacy" required> You agree to our friendly privacy policy</label>
+  <button class="btn btn-primary btn-block btn-lg" type="submit">Send Message</button>
+  <p class="form-note" role="status">Thanks! Your message has been received. We’ll get back to you shortly.</p>
+</form>
+      <aside class="info-cards">
+  <div class="info-card"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-.4 2L12 11.4 4.4 6zM4 18V7.9l8 5.7 8-5.7V18z"/></svg><div><h3>Email Us</h3><p>We'll respond to your inquiry as soon as possible.</p><a href="mailto:info@gtrfreight.com">info@gtrfreight.com</a></div></div>
+  <div class="info-card"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg><div><h3>Call Us</h3><p>Our customer support team is available</p><a href="tel:+15132448706">+1 (513) 244 8706</a></div></div>
+  <div class="info-card"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-3 10H7v-2h10zm0-3H7V7h10z"/></svg><div><h3>Live Chat</h3><p>Chat with us in real-time using our live chat feature.</p><a href="mailto:support@gtrfreight.com">support@gtrfreight.com</a></div></div>
+</aside>
+
+    </div>
+  </div>
+</section>
+<section class="cta-section">
+  <div class="container">
+    <div class="cta" style="background-image:url('assets/img/cta-truck.jpg')">
+      <h2>Ready for less risk &amp; More Savings?</h2>
+      <a class="btn btn-white" href="#form">Get in touch</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Phone: <a href="tel:8555555555">855-555-5555</a></li>
+            <li>Email: <a href="mailto:info@gtrfreight.com">info@gtrfreight.com</a></li>
+            <li class="addr">4030 SMITH RD STE 200<br>CINCINNATI, OH 45209</li>
+          </ul>
+          <div class="social">
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2zM8 19H5V9h3zM6.5 7.7A1.7 1.7 0 1 1 8.2 6a1.7 1.7 0 0 1-1.7 1.7zM19 19h-3v-4.9c0-1.2 0-2.7-1.6-2.7s-1.9 1.3-1.9 2.6V19h-3V9h2.9v1.4a3.2 3.2 0 0 1 2.9-1.6c3 0 3.6 2 3.6 4.6z"/></svg></a>
+            <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg></a>
+            <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="contacts.html#form">Request a quote</a></li>
+            <li><a href="about.html">Overview</a></li>
+            <li><a href="about.html#mission">Our mission</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="freight-brokerage.html#services">Dry Van</a></li>
+            <li><a href="freight-brokerage.html#services">Refrigerated</a></li>
+            <li><a href="freight-brokerage.html#services">Flatbed/Specialized</a></li>
+            <li><a href="freight-brokerage.html#services">Expedited</a></li>
+            <li><a href="freight-brokerage.html#services">Heavy Haul/Oversize</a></li>
+            <li><a href="freight-brokerage.html#services">White Glove</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="team.html">Our team</a></li>
+            <li><a href="careers.html">Careers</a><br><span class="badge-hiring">Hiring!</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bar">© GTR Freight. All rights reserved.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
